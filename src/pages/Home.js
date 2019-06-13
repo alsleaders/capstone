@@ -16,6 +16,12 @@ class Home extends Component {
           <GoPast />
           <GoMissed />
         </nav>
+        <h2>Current Drive</h2>
+
+        <h3>Upcoming Points of Interest</h3>
+
+        <p> mapped images, name, and button to add to path</p>
+        <p>tired me might be dumb </p>
       </main>
     )
   }

@@ -3,6 +3,7 @@
 :root {
   font: 16px / 1 sans-serif;
   font-family: 'Lora', serif;
+  --main-bg-color: brown;
 }
 
 html {
@@ -14,8 +15,9 @@ html {
 body {
   margin: 3rem;
   min-height: 100%;
-  background: #a9bcd0;
+  /* background: #a9bcd0; */
   border-radius: 2rem;
+  background-color: var(--main-bg-color);
 }
 
 h1 {
