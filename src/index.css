@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
+  font-family: 'Lora', serif;
 }
 
 html {
   height: 100%;
+  background: #1b1b1e;
+  color: #373f51;
 }
 
 body {
-  margin: 0;
+  margin: 3rem;
   min-height: 100%;
+  background: #a9bcd0;
+  border-radius: 2rem;
+}
+
+h1 {
+  margin: 3rem;
+  text-shadow: 4px 4px 4px #8b9aab;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+ul {
+  border: #58a4b0 inset 1rem;
 }
