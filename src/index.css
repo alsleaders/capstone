@@ -4,12 +4,14 @@
   font: 16px / 1 sans-serif;
   font-family: 'Lora', serif;
   --main-bg-color: brown;
+  --main-accent-color: whitesmoke;
+  --main-font-color: #373f51;
 }
 
 html {
   height: 100%;
   background: #1b1b1e;
-  color: #373f51;
+  color: var(--main-font-color);
 }
 
 body {
