@@ -6,12 +6,17 @@ import GoPast from '../components/GoPast'
 export default function ThingsYouMissed() {
   return (
     <>
-      <nav>
-        <GoHome />
-        <GoCurrent />
-        <GoPast />
-      </nav>
-      <p>This is the Things you Missed Page</p>
+      <main>
+        <header>
+          <h1>Things You Missed </h1>
+        </header>
+        <nav className="navBar">
+          <GoHome />
+          <GoCurrent />
+          <GoPast />
+        </nav>
+        <p>This is the Things you Missed Page</p>
+      </main>
     </>
   )
 }

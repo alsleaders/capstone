@@ -9,9 +9,9 @@ class Home extends Component {
     return (
       <main>
         <header>
-          <Header />
+          <h1>A Preview of Coming Attractions</h1>
         </header>
-        <nav>
+        <nav className="navBar">
           <GoCurrent />
           <GoPast />
           <GoMissed />
@@ -20,8 +20,9 @@ class Home extends Component {
 
         <h3>Upcoming Points of Interest</h3>
 
-        <p> mapped images, name, and button to add to path</p>
-        <p>tired me might be dumb </p>
+        <p>
+          mapped api data, displaying images, name, and button to add to path
+        </p>
       </main>
     )
   }

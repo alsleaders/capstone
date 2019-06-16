@@ -6,12 +6,17 @@ import GoMissed from '../components/GoMissed'
 export default function CurrentDrive() {
   return (
     <>
-      <nav>
-        <GoHome />
-        <GoPast />
-        <GoMissed />
-      </nav>
-      <p> This is the Current Drive Page</p>
+      <main>
+        <header>
+          <h1>Your Current Drive</h1>
+        </header>
+        <nav className="navBar">
+          <GoHome />
+          <GoPast />
+          <GoMissed />
+        </nav>
+        <p> This is the Current Drive Page</p>
+      </main>
     </>
   )
 }
