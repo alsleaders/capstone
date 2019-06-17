@@ -16,13 +16,15 @@ class Home extends Component {
           <GoPast />
           <GoMissed />
         </nav>
-        <h2>Current Drive</h2>
+        <section>
+          <h2>Current Drive</h2>
 
-        <h3>Upcoming Points of Interest</h3>
+          <h3>Upcoming Points of Interest</h3>
 
-        <p>
-          mapped api data, displaying images, name, and button to add to path
-        </p>
+          <p>
+            mapped api data, displaying images, name, and button to add to path
+          </p>
+        </section>
       </main>
     )
   }

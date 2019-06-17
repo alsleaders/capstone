@@ -36,6 +36,15 @@ main {
   align-content: center;
 }
 
+section {
+  /* border: 2rem dashed maroon; */
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 ul {
   border: #58a4b0 inset 1rem;
 }
