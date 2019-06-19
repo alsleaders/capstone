@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 class GoHome extends Component {
   render() {
     return (
-      <>
+      <div className="navBar">
         <Link to="/">Home</Link>
-      </>
+      </div>
     )
   }
 }
